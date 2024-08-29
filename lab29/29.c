@@ -1,3 +1,15 @@
+/*
+====================================================================================================================================================================================
+Name : 29.c
+Author : Rohan Sonawane
+Description :
+Write a program to get scheduling policy and modify the scheduling policy (SCHED_FIFO,
+SCHED_RR).
+
+Date : 28th August 2024
+===================================================================================================================================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sched.h>
@@ -69,4 +81,21 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
+/*
+output:
+9$ ./a.out fifo
+Current Scheduling Policy: SCHED_OTHER (Default)
+sched_setscheduler: Operation not permitted
+rohan-sonawane@rohan-sonawane-HP-Pavilion-Laptop-14-ce3xxx:~/SS hands on lab/lab29$ sudo ./a.out fifo
+[sudo] password for rohan-sonawane: 
+Current Scheduling Policy: SCHED_OTHER (Default)
+Scheduling policy changed to SCHED_FIFO.
+Current Scheduling Policy: SCHED_FIFO
+Scheduling policy changed to SCHED_RR.
+Current Scheduling Policy: SCHED_RR
+rohan-sonawane@rohan-sonawane-HP-Pavilion-Laptop-14-ce3xxx:~/SS hands on lab/lab29$ 
+
+
+*/
 

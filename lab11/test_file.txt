@@ -2,3 +2,11 @@ Text written by original descriptor.
 Text written by dup descriptor.
 Text written by dup2 descriptor.
 Text written by fcntl descriptor.
+Text written by original descriptor.
+Text written by dup descriptor.
+Text written by dup2 descriptor.
+Text written by fcntl descriptor.
+Text written by original descriptor.
+Text written by dup descriptor.
+Text written by dup2 descriptor.
+Text written by fcntl descriptor.

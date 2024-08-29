@@ -1,3 +1,12 @@
+/*
+====================================================================================================================================================================================
+Name : main.c
+Author : Rohan Sonawane
+Description :Write a program to create a Zombie state of the running program.
+
+Date : 28th August 2024
+===================================================================================================================================================================================
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -29,4 +38,16 @@ int main() {
 
     return 0;
 }
+
+/*
+output:
+rohan-sonawane@rohan-sonawane-HP-Pavilion-Laptop-14-ce3xxx:~/SS hands on lab/lab23$ ./a.out
+Parent process creating child process.
+Parent process is sleeping for 10 seconds...
+Child process is terminating.
+
+Parent process is now calling wait().
+Now parent process reaped the Zombie process
+rohan-sonawane@rohan-sonawane-HP-Pavilion-Laptop-14-ce3xxx:~/SS hands on lab/lab23$ 
+*/
 
